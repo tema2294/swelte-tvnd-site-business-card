@@ -20,7 +20,7 @@
 	<header>
 		<nav class="nav-container">
 			<a>ТНВД 76</a>
-			<div on:click={()=> isOpen = !isOpen} class="{isOpen ? 'burger_menu' : 'burger_menu burger_menu-open'}" >
+			<div on:click={()=> isOpen = !isOpen} class="{!isOpen ? 'burger_menu' : 'burger_menu burger_menu-open'}" >
 				<span></span>
 				<span></span>
 			</div>
