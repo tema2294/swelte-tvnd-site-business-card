@@ -24,7 +24,7 @@
 				<span></span>
 				<span></span>
 			</div>
-			<ul  class="{isOpen ? 'nav-list' : 'nav-list nav-list-open'}">
+			<ul  class="{!isOpen ? 'nav-list' : 'nav-list nav-list-open'}">
 				<li on:click={()=>customScroll('.info-section')}>О нас</li>
 				<li on:click={()=>customScroll('.advantages-section')}>Преимущества</li>
 				<li on:click={()=>customScroll('.address-section')}>Контакты</li>
