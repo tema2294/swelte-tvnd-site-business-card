@@ -1,5 +1,5 @@
 <script>
-    import Category from "./category-cards.svelte";
+    import Category from "./Category-cards.svelte";
 
     function customScroll(type) {
         const sections = document.querySelector(type);
