@@ -1,5 +1,7 @@
 <script>
     import Category from "./Category-cards.svelte";
+    import {Link} from "svelte-routing";
+
 
     function customScroll(type) {
         const sections = document.querySelector(type);
@@ -49,7 +51,9 @@
     </section>
     <section class="category">
         <div class="category-header">Категории</div>
-            <Category></Category>
+        <Link to="tnvd"> Lets go tnvd </Link>
+
+                   <Category></Category>
 
     </section>
     <section class="info-section">
