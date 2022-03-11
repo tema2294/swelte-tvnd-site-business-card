@@ -109,10 +109,7 @@
 
     </section>
     <section class="map-section">
-        <script type="text/javascript" charset="utf-8" async
-                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A76f664072c8f87f0f18db2865e6b49de92288d0f01ace595715ad5b457ea3076&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true">
-        </script>
-    </section>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad2f9bf004490951632715c2f341dd3d55161026b01e2059b8daad94d48f146e6&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>    </section>
 </main>
 
 <style>

@@ -236,6 +236,8 @@ nav > * {
 	color: black;
 	display: flex;
 	justify-content: center;
+	position: relative;
+	margin-bottom: 200px;
 }
 .address-section hr {
 	background-color: #00008a;
@@ -316,6 +318,9 @@ nav > * {
 	display: flex;
 	align-items: center;
 
+}
+ .ymaps-2-1-79-user-selection-none {
+	margin-right: 50px!important;
 }
 .btn:hover {
 	background: #1d49aa;
