@@ -135,12 +135,12 @@
     }
 
     .info-container {
-        padding: 16px 16px 0;
+        padding: 16px 16px 16px;
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 30%;
-
+        height: fit-content;
+        gap: 20px;
 
     }
 
@@ -207,7 +207,7 @@
     }
 
     .item-section {
-        padding: 50px 15vw 0;
+        padding: 50px 15vw 50px;
 
     }
 
@@ -297,10 +297,20 @@
         .item-container {
             display: grid;
             justify-content: center;
-            grid-template-columns: repeat(auto-fill, 300px);
+            grid-template-columns: repeat(auto-fill, 250px);
             align-content: center;
             gap: 30px;
-            padding: 30px 5vw 0;
+            padding: 30px 5vw 30px;
+        }
+        .item-section {
+            padding: 50px 10px 0px;
+        }
+
+        .header-card {
+            font-size: 19px;
+        }
+        .item-container {
+
         }
     }
 </style>
