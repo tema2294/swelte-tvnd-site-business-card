@@ -4,6 +4,7 @@
     import TnvdPage from "./Tndv-page.svelte";
 
     export let url = "";
+    $: console.log(url)
 
 </script>
 

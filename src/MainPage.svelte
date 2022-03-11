@@ -51,7 +51,6 @@
     </section>
     <section class="category">
         <div class="category-header">Категории</div>
-        <Link to="tnvd"> Lets go tnvd </Link>
 
                    <Category></Category>
 
